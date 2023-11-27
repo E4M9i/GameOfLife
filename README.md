@@ -82,7 +82,21 @@ State machines and unit testing form the backbone of reliable and efficient game
 
 ---
 ### Setting
-You can change settings of Game of Life by simply edit values in ``setting.json``
+You can change settings of Game of Life by simply edit values in[ ``setting.json``](https://github.com/E4M9i/GameOfLife/blob/main/GameOfLife/setting.json)
+ ``` json 
+ {
+    "boardHeight": 20,
+    "boardWidth": 30,
+    "generation": 150,
+    "interval": 100,
+    "debugMode":true,
+    "logFolder":".\\Logs",
+    "boardLayout": {
+        "liveSymbol": "#",
+        "deadSymbol": "-"
+    }
+} 
+```
 If you keep debug mode True it will create series of files in order to trace generations.
 Log folder path can be changed as you wish.
 Symbols of dead and alive also can be edited which is kind of fun to see the game in diffrent look, it's actually was my son's idea 🧬💡
