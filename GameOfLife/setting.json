@@ -1,0 +1,12 @@
+{
+    "boardHeight": 20,
+    "boardWidth": 30,
+    "generation": 150,
+    "interval": 100,
+    "debugMode":true,
+    "logFolder":".\\Logs",
+    "boardLayout": {
+        "liveSymbol": "#",
+        "deadSymbol": "-"
+    }
+}
