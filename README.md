@@ -82,7 +82,7 @@ State machines and unit testing form the backbone of reliable and efficient game
 
 ---
 ### Setting
-You can change settings of Game of Life by simply edit values in[ ``setting.json``](https://github.com/E4M9i/GameOfLife/blob/main/GameOfLife/setting.json)
+You can change settings of Game of Life by simply edit values in [``setting.json``](https://github.com/E4M9i/GameOfLife/blob/main/GameOfLife/setting.json)
  ``` json 
  {
     "boardHeight": 20,
